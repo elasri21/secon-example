@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+/*.........container..........*/
+.container {
+    background-color: #eccd41;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 25px 50px;
+    width: 860px;
+    height: 560px;
+    
+    
+}
+
+/*.........left container..........*/
+.container .left {
+    width: 20%;
+    text-align: center;
+}
+.container .left a i {
+    display: inline-block;
+    margin: 10px;
+    font-size: 16px;
+    color: black;
+}
+/*.........right container..........*/
+.container .right {
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+}
+.container .right .nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.container .right .nav ul li a {
+    display: block;
+    margin: 5px 8px;
+    color: black;
+}
+.container .right .fashion, .container .right .title,
+.container .right .description, .container .right .more-info,
+.container .right .form-section {
+    margin-left: 30%;
+}
+.container .right .fashion a {
+    display: block;
+    padding: 4px 7px;
+    background-color: gray;
+    color: white;
+    width: 65px;
+    text-align: center;
+    border-radius: 2px;
+}
+.container .right .title h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.container .right .description p {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: gray;
+    font-weight: 600;
+}
+.container .right .more-info {
+    margin-top: 10px;
+}
+.container .right .more-info span {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+}
+.container .right .more-info a i {
+    font-size: 24px;
+    color: black;
+    margin-left: 10px;
+    line-height: 10px;
+}
+/*........container .right .form-section........*/
+.container .right .form-section {
+    margin-top: 20px;
+
+}
+.container .right .form-section h2 {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    margin: 10px 0;
+}
+.container .right .form-section form input {
+    width: 175px;
+    height: 40px;
+    padding: 15px;
+    line-height: 15px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(221, 221, 221, .2) 5px 5px 3px, rgba(221, 221, 221, .5) -5px -5px 3px;
+
+}
+.container .right .form-section form input[type='submit'] {
+    background-color: #eccd41;
+    cursor: pointer;
+}
+/*..........enf of container...........*/
+.slider {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+   
+}
+.slider .img-container {
+    width: 100%;
+    height: 90%;
+ 
+
+}
+.slider .img-container img {
+
+    width: 100%;
+    height: 100%;
+}
+.slider .button-container {
+    display: flex;
+    height: 10%;
+    width: 100%;
+}
+.slider .button-container .slide {
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    color: #eccd41;
+}
+.slider .button-container .slide span {
+    display: inline-block;
+    height: 2px;
+    width: 70px;
+}
+.slider .button-container .slide span.first {
+    margin-left: 10px;
+    background-color: #eccd41;
+    
+
+}
+.slider .button-container .slide span.second {
+    margin-right: 10px;
+    background-color: rgba(221, 221, 221);
+    
+}
+.slider .button-container .button-parent {
+    width: 30%;
+    height: 100%;
+    background-color: #eccd41;
+}
+.slider .button-container .button-parent button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 30px;
+  
+}
+.slider .button-container .button-parent button i {
+    display: block;
+    line-height: 30px;
+    font-size: 20px;
+    
+}
+.fashion-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ddd;
+    background-color: #eccd41;
+    width: 60%;
+    height: 60%;
+    z-index: 100;
+
+}
+.fashion-container .child {
+    width: 90%;
+    height: 85%;
+    margin: 10px auto;
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fashion-container button {
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    position: absolute;
+    right: 10px;
+    bottom: 3px;
+    
+}
+
